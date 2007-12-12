@@ -1,6 +1,6 @@
 %define name	tosvcd
 %define version	0.9
-%define release 2mdk
+%define release %mkrel 2
 
 Name: 	 	%{name}
 Summary: 	Makes (super) video CD's from digital video recorder files
