@@ -12,6 +12,7 @@ URL:		http://muse.seh.de/tosvcd/
 License:	GPL
 Group:		Video
 Requires:	mjpegtools vcdimager cdrdao
+BuildArch: %ix86
 
 %description
 ToSVCD takes one or more recorded VDR files and transcodes them to a SVCD
