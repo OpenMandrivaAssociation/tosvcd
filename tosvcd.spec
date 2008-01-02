@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://muse.seh.de/tosvcd/
 License:	GPL
 Group:		Video
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Requires:	mjpegtools vcdimager cdrdao
 ExclusiveArch: %ix86
 
