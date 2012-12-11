@@ -49,3 +49,35 @@ rm -rf $RPM_BUILD_ROOT
 %doc README ChangeLog
 %{_bindir}/%name
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.9-7mdv2010.0
++ Revision: 434405
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.9-6mdv2009.0
++ Revision: 261631
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.9-5mdv2009.0
++ Revision: 254693
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Dec 20 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.9-3mdv2008.1
++ Revision: 135863
+- use ExclusiveArch instead
+- BuildArch: %%ix86
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import tosvcd
+
+
+* Sun Jun 6 2004 Austin Acton <austin@mandrake.org> 0.9-2mdk
+- rebuild
+
+* Wed Jun 4 2003 Austin Acton <aacton@yorku.ca> 0.9-1mdk
+- initial package
